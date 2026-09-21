@@ -27,14 +27,20 @@
         ]
     },
 
-    "jobgallery": {
+    "ProjectSpace": {
         "images": [
-            "assets/projects/jobgallery/images/home.png",
-            "assets/projects/jobgallery/images/camera.png",
-            "assets/projects/jobgallery/images/gallery.png"
+            "assets/projects/ProjectSpace/images/Home.png",
+            "assets/projects/ProjectSpace/images/Why.png",
+            "assets/projects/ProjectSpace/images/First_Project.png",
+            "assets/projects/ProjectSpace/images/Second_Project.png",
+            "assets/projects/ProjectSpace/images/Third_Project.png",
+            "assets/projects/ProjectSpace/images/Fourth_Project.png",
+            "assets/projects/ProjectSpace/images/Fifth_Project.png",
+            "assets/projects/ProjectSpace/images/Conclusion.png"
+
         ],
         "videos": [
-            "assets/projects/jobgallery/demo/demo.mp4"
+            "assets/projects/ProjectSpace/demo/ProjectSpaceDemo.mp4"
         ]
     }
 }
