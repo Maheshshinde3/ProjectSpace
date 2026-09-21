@@ -1,0 +1,582 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ProjectSpace | Project Showcase</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="navbar">
+      <a href="#" class="logo">Project<span>Space</span></a>
+      <nav>
+        <a href="#projects">Projects</a>
+        <a href="#about">About This Site</a>
+      </nav>
+    </header>
+
+    <main>
+      <!-- HERO -->
+      <section class="hero">
+        <div class="hero-content">
+          <div class="eyebrow">PROJECT SHOWCASE</div>
+
+          <h1>Less about me.<br /><span>More about what I build.</span></h1>
+
+          <p class="hero-text">
+            My resume tells you about my background. This website gives you a
+            closer look at the projects I've built, the problems behind them,
+            and the solutions I've implemented.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="primary-btn"
+              >Explore Projects <span>↓</span></a
+            >
+            <a href="#about" class="text-btn">How this works →</a>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="visual-card card-one">
+            <span class="mini-label">BUILD</span>
+            <strong>Ideas → Solutions</strong>
+            <small>Projects that solve real problems.</small>
+          </div>
+          <div class="visual-card card-two">
+            <span class="mini-label">BUILD</span>
+            <strong>Problem → Solution</strong>
+            <small>Turning ideas into working projects.</small>
+          </div>
+          <div class="floating-dot dot-one"></div>
+          <div class="floating-dot dot-two"></div>
+        </div>
+      </section>
+
+      <!-- DESCRIPTION -->
+      <section class="description" id="about">
+        <div class="section-kicker">WHY THIS WEBSITE?</div>
+        <div class="description-grid">
+          <h2>A focused place to<br /><span>see the work.</span></h2>
+          <div>
+            <p>
+              Instead of sending you across different platforms, this website
+              brings the project experience together in one place.
+            </p>
+            <div class="feature-row">
+              <div class="feature">
+                <b>01</b>
+                <strong>Problem</strong>
+                <span>Why the project was needed.</span>
+              </div>
+              <div class="feature">
+                <b>02</b>
+                <strong>Solution</strong>
+                <span>How the idea was implemented.</span>
+              </div>
+              <div class="feature">
+                <b>03</b>
+                <strong>Proof</strong>
+                <span>Images, demo and source code.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROJECTS -->
+      <section class="projects-section" id="projects">
+        <div class="projects-heading">
+          <div>
+            <div class="section-kicker">SELECTED WORK</div>
+            <h2>Projects I've built</h2>
+          </div>
+          <p>
+            Each project explains the idea, the problem, the solution, and the
+            technology behind it.
+          </p>
+        </div>
+
+        <div class="project-list" id="projects-container">
+
+
+
+
+
+
+
+
+          <!-- First Project -->
+          <article class="project-card">
+            <div class="project-top">
+              <span class="project-number">01</span>
+              <span class="project-category ai">AI / GENERATIVE AI</span>
+            </div>
+
+            <h3>DocMind AI — Intelligent Document Question Answering System</h3>
+            <div class="tech-list">
+              <span>Python</span>
+              <span>RAG - Retrieval-Augmented Generation </span>
+              <span>FastAPI</span>
+              <span>FAISS</span>
+              <span>Sentence Transformers</span>
+              <span>Hugging Face</span>
+              <span>LangChain</span>
+              <span>(sentence-transformers/all-MiniLM-L6-v2)</span>
+              <span>DeepSeek (deepseek-ai/DeepSeek-V4-Flash-0731)</span>
+              <span>PyMuPDF</span>
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+              <span>REST API</span>
+            </div>
+
+            <p class="project-intro">
+              DocMind AI is a Retrieval-Augmented Generation (RAG) based
+              document Q&A system that allows users to upload PDF documents and
+              ask questions about their content. The system extracts and splits
+              document text into chunks, converts them into embeddings, stores
+              them in FAISS, retrieves relevant information for a user query,
+              and uses the DeepSeek model to generate a contextual answer.
+            </p>
+
+            <div class="project-link">
+              <span>PROJECT LINK</span>
+              <a href="" target="_blank" rel="noopener"></a>
+            </div>
+
+            <div class="project-details">
+              <div>
+                <span>WHY</span>
+                <p>
+                  Students and professionals often have to search through
+                  lengthy PDF documents to find specific information. I wanted
+                  to build a system that could understand uploaded documents and
+                  provide relevant answers directly through a simple chat
+                  interface.
+                </p>
+              </div>
+              <div>
+                <span>PROBLEM</span>
+                <p>
+                  aditional document reading requires manually searching through
+                  pages, and general-purpose AI models may not have access to
+                  the specific information contained in a user's private PDF.
+                  This makes it difficult to get accurate, document-specific
+                  answers quickly.
+                </p>
+              </div>
+              <div>
+                <span>SOLUTION</span>
+                <p>
+                  I built DocMind AI with RAG, where users can upload a PDF and
+                  ask questions about its content. The system extracts and
+                  chunks the document, converts the chunks into embeddings,
+                  stores them in FAISS, retrieves the most relevant information
+                  for each query, and provides that context to the
+                  DeepSeek-V4-Flash-0731 model to generate a relevant answer.
+                </p>
+              </div>
+            </div>
+
+            <div class="project-actions">
+              <button class="secondary-btn watchdemo" data-project="ragproject">Watch Demo</button>
+              <button class="outline-btn viewsource">View Source ↗</button>
+            </div>
+          </article>
+
+
+
+
+
+
+
+          <!-- Second Project -->
+          <article class="project-card">
+            <div class="project-top">
+              <span class="project-number">02</span>
+              <span class="project-category web">WEB DEVELOPMENT</span>
+            </div>
+
+            <h3>Youtube Channel Website with Quiz Zone</h3>
+
+            <div class="tech-list">
+              <span>Python</span>
+              <span>Django</span>
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+              <span>Bootstrap</span>
+            </div>
+
+            <p class="project-intro">
+              Developed a dynamic YouTube channel website using Django (MVT
+              architecture) to display videos, playlists, and channel content in
+              an organized platform. Implemented a Quiz Zone where users can
+              test their knowledge through topic-based quizzes and answer
+              multiple-choice questions. Built responsive UI, dynamic templates,
+              structured navigation, and optimized static files (CSS/JS) for
+              production. Embedded YouTube videos and followed SEO-friendly
+              design practices. Deployed the application on Render using
+              Gunicorn, WhiteNoise, and environment variables, with Git & GitHub
+              for version control.
+            </p>
+
+            <div class="project-link">
+              <span>PROJECT LINK</span>
+              <a
+                href="https://codehubgenius.onrender.com"
+                target="_blank"
+                rel="noopener"
+                >click here to view website</a
+              >
+            </div>
+
+            <div class="project-details">
+              <div>
+                <span>WHY</span>
+                <p>
+                  I developed this website to provide a single, organized
+                  platform for viewers to explore the complete YouTube channel
+                  instead of relying only on the YouTube channel page. It brings
+                  together channel information, playlists, top-performing
+                  videos, channel analytics, and an interactive Quiz Zone,
+                  making it easier for users to understand the channel's
+                  content, discover useful videos, and test their knowledge.
+                </p>
+              </div>
+              <div>
+                <span>PROBLEM</span>
+                <p>
+                  A YouTube channel's content is primarily presented through
+                  YouTube's standard interface, where information such as
+                  channel details, playlists, popular content, performance
+                  insights, and interactive learning activities are not
+                  presented together in a customized structure. Viewers may need
+                  to navigate through different sections to discover and
+                  understand the channel's content.
+                </p>
+              </div>
+              <div>
+                <span>SOLUTION</span>
+                <p>
+                  I developed a dynamic Django-based channel website that brings
+                  these features together in one platform. It includes channel
+                  information, playlist details and links, top-performing
+                  videos, channel analytics, and a Quiz Zone. The website uses
+                  Django MVT architecture, dynamic templates, responsive UI,
+                  embedded YouTube videos, optimized CSS/JS, and SEO-friendly
+                  design, and was deployed on Render using Gunicorn, WhiteNoise,
+                  and environment variables, with Git & GitHub for version
+                  control.
+                </p>
+              </div>
+            </div>
+
+            <div class="project-actions">
+              <button class="secondary-btn watchdemo"  data-project="YoutubeWebsite" >Watch Demo</button>
+              <button class="outline-btn viewsource" data-github="https://github.com/Maheshshinde3/codehubgenius">View Source ↗</button>
+            </div>
+          </article>
+
+
+
+
+
+
+          <!-- Third Project -->
+          <article class="project-card">
+            <div class="project-top">
+              <span class="project-number">03</span>
+              <span class="project-category agent">Machine Learning</span>
+            </div>
+
+            <h3>Movie Recommendation System using Machine Learning</h3>
+
+            <div class="tech-list">
+              <span>Python</span>
+              <span>Streamlit</span>
+              <span>Pandas</span>
+              <span>Numpy</span>
+              <span>Scikit-Learn</span>
+              <span>NLTK</span>
+              <span>Pickle</span>
+            </div>
+
+            <p class="project-intro">
+              Engineered a content-based recommender system using NLP and cosine
+              similarity to suggest movies based on user input. Applied text
+              vectorization (CountVectorizer) and built similarity matrix for
+              5000+ movies. Developed a real time recommendation interface using
+              Streamlit, enabling dynamic movie suggestions. Implemented
+              end-to-end ML pipeline from EDA - text preprocessing -
+              vectorization - model persistence - deployment.
+            </p>
+
+            <div class="project-link">
+              <span>PROJECT LINK</span>
+              <a href="" target="_blank" rel="noopener"></a>
+            </div>
+
+            <div class="project-details">
+              <div>
+                <span>WHY</span>
+                <p>
+                  With thousands of movies available, users often spend a lot of
+                  time deciding what to watch. I wanted to build a system that
+                  could recommend movies based on the user's interest in a
+                  particular movie.
+                </p>
+              </div>
+              <div>
+                <span>PROBLEM</span>
+                <p>
+                  A user may like a particular movie but finding other movies
+                  with similar content can be difficult. Manually searching
+                  through thousands of movies is time-consuming and may not
+                  provide relevant recommendations.
+                </p>
+              </div>
+              <div>
+                <span>SOLUTION</span>
+                <p>
+                  I built a content-based movie recommendation system using NLP
+                  and cosine similarity. Movie information was converted into
+                  numerical vectors using CountVectorizer, and a similarity
+                  matrix was created for 5,000+ movies. When a user selects a
+                  movie, the system compares its content with other movies and
+                  recommends the most similar ones through a Streamlit
+                  interface.
+                </p>
+              </div>
+            </div>
+
+            <div class="project-actions">
+              <button class="secondary-btn watchdemo">Watch Demo</button>
+              <button class="outline-btn viewsource" data-github="https://github.com/Maheshshinde3/Recommend-Movies">View Source ↗</button>
+            </div>
+          </article>
+
+
+
+
+
+
+
+          <!-- Fourth Project -->
+          <article class="project-card">
+            <div class="project-top">
+              <span class="project-number">04</span>
+              <span class="project-category app">App Development</span>
+            </div>
+
+            <h3>JobGallery — Work Photo Management App</h3>
+            <div class="tech-list">
+              <span>Java</span>
+              <span>Android Studio</span>
+              <span>XML</span>
+              <span>CameraX</span>
+              <span>Android Storage API</span>
+              <span>Gradle</span>
+            </div>
+
+            <p class="project-intro">
+              Developed an Android-based work photo management application that
+              enables users to capture and manage job-related images directly
+              within the app, keeping them separate from personal gallery
+              photos. Implemented in-app camera functionality using **CameraX**,
+              handled image capture and storage using the **Android Storage
+              API**, and created the application interface with **XML layouts**
+              and **Java**. Designed app-specific storage to maintain separation
+              of work images from the device’s personal media gallery and
+              provide quick access to captured work.
+            </p>
+
+            <div class="project-link">
+              <span>PROJECT LINK</span>
+              <a href="" target="_blank" rel="noopener"
+                >Currently in Developing Stage</a
+              >
+            </div>
+
+            <div class="project-details">
+              <div>
+                <span>WHY</span>
+                <p>
+                  I developed JobGallery to solve a common problem faced by
+                  workers and professionals who take photos of their completed
+                  work to show customers. The idea was to provide a dedicated
+                  space for work photos, so they could easily access and present
+                  their work without exposing personal photos from their phone
+                  gallery.
+                </p>
+              </div>
+              <div>
+                <span>PROBLEM</span>
+                <p>
+                  Workers often use their phone's normal camera and gallery to
+                  capture work photos. When they show these photos to a
+                  customer, their personal photos may also be visible, making it
+                  difficult to keep work and personal images separate.
+                </p>
+              </div>
+              <div>
+                <span>SOLUTION</span>
+                <p>
+                  I developed JobGallery, an Android application where users can
+                  capture work photos directly inside the app. The captured
+                  images are stored in app-specific storage and accessed within
+                  the application, keeping them separate from the device's
+                  personal gallery. This provides a dedicated and organized way
+                  to capture, manage, and present work-related photos.
+                </p>
+              </div>
+            </div>
+
+            <div class="project-actions">
+              <button class="secondary-btn watchdemo">Watch Demo</button>
+              <button class="outline-btn viewsource" data-github="https://github.com/Maheshshinde3/codehubgenius">View Source ↗</button>
+            </div>
+          </article>
+
+
+
+
+
+
+          <!-- Fifth Project -->
+          <article class="project-card">
+            <div class="project-top">
+              <span class="project-number">05</span>
+              <span class="project-category web">Web Development</span>
+            </div>
+
+            <h3>ProjectSpace — Interactive Project Showcase</h3>
+            <div class="tech-list">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+              <span>Responsive Web Design</span>
+            </div>
+
+            <p class="project-intro">
+              Developed a centralized project showcase website to present
+              software projects in an organized and recruiter-friendly
+              interface. Implemented dynamic project cards with technology
+              stacks, project descriptions, development insights, screenshots,
+              demo videos, source code, and live project links. Designed the
+              platform to support multiple projects while keeping project
+              information structured and easy to explore. Built the website
+              using HTML, CSS, and JavaScript with a responsive and visually
+              engaging interface.
+            </p>
+
+            <div class="project-link">
+              <span>PROJECT LINK</span>
+              <a href="" target="_blank" rel="noopener"></a>
+            </div>
+
+            <div class="project-details">
+              <div>
+                <span>WHY</span>
+                <p>
+                  I developed ProjectSpace to create a single place where
+                  recruiters can explore my projects and understand what I
+                  built, the technologies I used, and how each project works
+                  without having to search through different platforms.
+                </p>
+              </div>
+              <div>
+                <span>PROBLEM</span>
+                <p>
+                  Project information is often scattered across GitHub, video
+                  platforms, live websites, and separate screenshots, requiring
+                  recruiters to move between multiple links to understand a
+                  project. A resume also provides limited space to show the
+                  actual work and its implementation.
+                </p>
+              </div>
+              <div>
+                <span>SOLUTION</span>
+                <p>
+                  I built ProjectSpace, a centralized project showcase that
+                  brings the important information for each project into one
+                  website. Recruiters can view the tech stack, description,
+                  why/problem/solution, screenshots, demo videos, and source
+                  code from the same platform, while the structure can easily
+                  accommodate additional projects in the future.
+                </p>
+              </div>
+            </div>
+
+            <div class="project-actions">
+              <button class="secondary-btn watchdemo">Watch Demo</button>
+              <button class="outline-btn viewsource">View Source ↗</button>
+            </div>
+          </article>
+
+    
+        </div>
+      </section>
+
+
+      <section class="closing">
+        <div class="section-kicker">MORE TO COME</div>
+        <h2>
+          This is a growing collection<br />of <span>things I've built.</span>
+        </h2>
+        <p>
+          I have worked on additional projects, but they are not showcased here
+          as demo and source code are currently unavailable. The projects
+          presented are those with available implementation details and
+          demonstrations.
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <span>ProjectSpace</span>
+      <p>Built to showcase projects, not profiles.</p>
+    </footer>
+
+
+
+
+        <!-- Showing Demo -->
+     <div class="demo-container">
+        <button class="demo-close">&times;</button>
+
+        <div class="demo-content">
+            <div class="demo-grid">
+
+                <!-- <div class="demo-item">
+                    <img src="assets/projects/ragproject/images/home.png"
+                    alt="Project screenshot">
+                </div>
+
+                <div class="demo-item">
+                    <img src="assets/projects/ragproject/images/home.png"
+                    alt="Project screenshot">
+                </div>
+
+                <div class="demo-item">
+                    <img src="assets/projects/ragproject/images/home.png"
+                    alt="Project screenshot">
+                </div> -->
+
+                <!-- <div class="demo-item">
+                    <video controls>
+                        <source src="assets/projects/ai-pdf-chatbot/demo/demo.mp4"
+                        type="video/mp4">
+                    </video>
+                </div> -->
+                </div>
+            </div>
+        </div>
+
+
+
+
+    <script src="script.js"></script>
+  </body>
+</html>

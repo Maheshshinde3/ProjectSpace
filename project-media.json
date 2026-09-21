@@ -1,0 +1,40 @@
+{
+    "ragproject": {
+        "images": [
+            "assets/projects/ragproject/images/home.png",
+            "assets/projects/ragproject/images/add_documents.png",
+            "assets/projects/ragproject/images/ai_response.png"
+
+        ],
+        "videos": [
+            "assets/projects/ragproject/demo/ragvideo1.mp4"
+        ]
+    },
+
+    "YoutubeWebsite": {
+        "images": [
+            "assets/projects/YoutubeChannel/images/Home.png",
+            "assets/projects/YoutubeChannel/images/About.png",
+            "assets/projects/YoutubeChannel/images/Featured_Playlist.png",
+            "assets/projects/YoutubeChannel/images/Quiz Zone.png",
+            "assets/projects/YoutubeChannel/images/Quiz.png",
+            "assets/projects/YoutubeChannel/images/Quiz_Result.png",
+            "assets/projects/YoutubeChannel/images/Loved_Shorts.png",
+            "assets/projects/YoutubeChannel/images/Channel_Peformance.png"
+        ],
+        "videos": [
+            "assets/projects/YoutubeChannel/demo/YoutubeWebsiteDemo.mp4"
+        ]
+    },
+
+    "jobgallery": {
+        "images": [
+            "assets/projects/jobgallery/images/home.png",
+            "assets/projects/jobgallery/images/camera.png",
+            "assets/projects/jobgallery/images/gallery.png"
+        ],
+        "videos": [
+            "assets/projects/jobgallery/demo/demo.mp4"
+        ]
+    }
+}
