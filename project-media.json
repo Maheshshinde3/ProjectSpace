@@ -27,6 +27,17 @@
         ]
     },
 
+    "JobGallery": {
+        "images": [
+            "assets/projects/JobGallery/images/Home.png",
+            "assets/projects/JobGallery/images/Camera.png"
+
+        ],
+        "videos": [
+            "assets/projects/JobGallery/demo/JobGalleryDemo.mp4"
+        ]
+    },
+
     "ProjectSpace": {
         "images": [
             "assets/projects/ProjectSpace/images/Home.png",
